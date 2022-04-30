@@ -31,13 +31,21 @@ name.question("¿Cuál es su nombre? ", name => {
 
 const{sum,pets} = require('./functions.js');
 const { edadUsuario } = require('./uno.js');
+const { comidas } = require('./tres.js');
+
 
 console.log(`Resultado de la suma: ${sum(5,6)}`);
 console.log(`Edad : ${edadUsuario(20)}`);
 
+
+
 pets.forEach((pet)=>{
     console.log(pet);
 });
+
+
+
+
 
 
 
